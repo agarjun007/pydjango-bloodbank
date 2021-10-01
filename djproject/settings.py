@@ -79,9 +79,9 @@ WSGI_APPLICATION = 'djproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'djproject',
+        'NAME': 'pydjango-bloodbank',
         'USER': 'postgres',
-        'PASSWORD': '123',
+        'PASSWORD': 'password',
         'HOST': 'localhost'
     }
 }
